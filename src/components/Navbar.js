@@ -45,7 +45,6 @@ const BrandLinkItem = styled.h1`
     margin: 10px 10px;
     padding: 10px;
     font-size: 20px;
-    color: black;
   }
 `
 
@@ -54,7 +53,7 @@ const BurgerMenu = styled.div`
   flex-direction: row;
   margin: 10px 20px;
   padding: 5px;
-  color: black;
+  color: ${colors.offWhite};
   font-size: 30px;
 
   @media (min-width: ${bp.lg}) {
@@ -75,7 +74,6 @@ const LinkItem = styled.h1`
   margin: 10px 10px;
   padding: 10px 20px;
   font-size: 20px;
-  color: black;
 `
 const BrandContainer = styled.div`
   display: flex;
@@ -96,7 +94,7 @@ const MobileMenuContainer = styled.ul`
   top: 8vh;
   width: 100%;
   height: 100vh;
-  background: ${colors.navy};
+  background: #13274f;
   transform: translateX(0%);
   transition: transform 0.3s ease-out;
   z-index: 1;
