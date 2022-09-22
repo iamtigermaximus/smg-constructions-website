@@ -7,6 +7,14 @@ import Service1 from '../assets/service1.jpg'
 import Service2 from '../assets/service2.jpg'
 import Service3 from '../assets/service3.jpg'
 import Service4 from '../assets/service4.jpg'
+import House1 from '../assets/house1.jpg'
+import House2 from '../assets/house2.jpg'
+import House3 from '../assets/house3.jpg'
+import House4 from '../assets/house4.jpg'
+import Approach1 from '../assets/approach1.svg'
+import Approach2 from '../assets/approach2.svg'
+import Approach3 from '../assets/approach3.svg'
+import Approach4 from '../assets/approach4.svg'
 
 const HeroSection = styled.div`
   background-image: url(${BG1});
@@ -278,7 +286,7 @@ const Home = () => {
         <ServicesContainer>
           <ServiceContainer>
             <ServiceImageContainer>
-              <Image src={Service1} />
+              <Image src={Approach1} />
             </ServiceImageContainer>
             <ServiceTitleContainer>
               <ApproachTitle>Independent and Flexible</ApproachTitle>
@@ -286,7 +294,7 @@ const Home = () => {
           </ServiceContainer>
           <ServiceContainer>
             <ServiceImageContainer>
-              <Image src={Service2} />
+              <Image src={Approach2} />
             </ServiceImageContainer>
             <ServiceTitleContainer>
               <ApproachTitle>Attention to Detail</ApproachTitle>
@@ -294,7 +302,7 @@ const Home = () => {
           </ServiceContainer>
           <ServiceContainer>
             <ServiceImageContainer>
-              <Image src={Service3} />
+              <Image src={Approach3} />
             </ServiceImageContainer>
             <ServiceTitleContainer>
               <ApproachTitle>Responsible and Unobtrusive</ApproachTitle>
@@ -302,7 +310,7 @@ const Home = () => {
           </ServiceContainer>
           <ServiceContainer>
             <ServiceImageContainer>
-              <Image src={Service4} />
+              <Image src={Approach4} />
             </ServiceImageContainer>
             <ServiceTitleContainer>
               <ApproachTitle>Professionalism</ApproachTitle>
@@ -320,7 +328,7 @@ const Home = () => {
         <ServicesContainer>
           <ServiceContainer>
             <ServiceImageContainer>
-              <Image src={Service1} />
+              <Image src={House1} />
             </ServiceImageContainer>
             <ServiceTitleContainer>
               <ServiceTitle>Private Residence | Helsinki</ServiceTitle>
@@ -328,7 +336,7 @@ const Home = () => {
           </ServiceContainer>
           <ServiceContainer>
             <ServiceImageContainer>
-              <Image src={Service2} />
+              <Image src={House2} />
             </ServiceImageContainer>
             <ServiceTitleContainer>
               <ServiceTitle>Private Residence | Espoo</ServiceTitle>
@@ -336,7 +344,7 @@ const Home = () => {
           </ServiceContainer>
           <ServiceContainer>
             <ServiceImageContainer>
-              <Image src={Service3} />
+              <Image src={House3} />
             </ServiceImageContainer>
             <ServiceTitleContainer>
               <ServiceTitle>Private Residence | Turku</ServiceTitle>
@@ -344,7 +352,7 @@ const Home = () => {
           </ServiceContainer>
           <ServiceContainer>
             <ServiceImageContainer>
-              <Image src={Service4} />
+              <Image src={House4} />
             </ServiceImageContainer>
             <ServiceTitleContainer>
               <ServiceTitle>Private Residence | Tampere</ServiceTitle>

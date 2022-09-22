@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import { breakpoints as bp } from '../utils/layout'
-import colors from '../utils/colors'
 import Logo from '../assets/smg-logo.png'
 import { MdLocationPin, MdEmail, MdCall } from 'react-icons/md'
 
