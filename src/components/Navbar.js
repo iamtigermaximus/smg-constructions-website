@@ -9,13 +9,14 @@ import Logo from '../assets/smg-logo.png'
 const NavbarContainer = styled.nav`
   width: 100vw;
   height: 10vh;
-  background: transparent;
+  background: #13274f;
   display: flex;
   align-items: center;
   justify-content: space-between;
   align-items: center;
   position: fixed;
   padding: 0 10px;
+  z-index: 1;
 
   @media (min-width: ${bp.lg}) {
     padding: 0 30px;
