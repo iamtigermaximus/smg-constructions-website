@@ -155,7 +155,7 @@ const ServiceTitleContainer = styled.div`
 const ServiceTitle = styled.h1`
   width: 100%;
   height: 50px;
-  font-size: 20px;
+  font-size: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -196,7 +196,7 @@ const ApproachSection = styled.div`
 const ApproachTitle = styled.h1`
   width: 100%;
   height: 50px;
-  font-size: 20px;
+  font-size: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
